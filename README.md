@@ -1,4 +1,36 @@
-🎓 Student Performance Prediction Using Linear Regression📊 Predicting academic success with Machine Learning & Python🚀 OverviewThis repository features a Linear Regression model built to analyze and predict student test scores based on factors like study hours, attendance, and past performance.🛠️ Tech Stack & ToolsCategoryTools & LibrariesLanguage🐍 PythonEnvironment⚡ Google Colab / 📓 Jupyter NotebookData Handling🐼 pandas | 🔢 numpyVisualization📊 matplotlib | 🌊 seabornMachine Learning🤖 scikit-learn📌 Features & Highlights🧹 Data Cleaning & Preprocessing: Handles missing values and scales features efficiently.📈 Exploratory Data Analysis (EDA): Visualizes score trends using correlation heatmaps and scatter plots.🎯 Smart Predictions: Trains a LinearRegression() model on split datasets (80/20).📐 Performance Metrics: Evaluates predictions using:🔹 MAE (Mean Absolute Error)🔹 MSE (Mean Squared Error)🔹 RMSE (Root Mean Squared Error)🔹 R² Score (Coefficient of Determination)⚙️ How to Run1️⃣ Clone the RepositoryBashgit clone https://github.com/your-username/student-performance-prediction.git
-cd student-performance-prediction
-2️⃣ Install Required PackagesBashpip install pandas numpy matplotlib seaborn scikit-learn
-3️⃣ Run the NotebookOpen the file in Google Colab or run locally:Bashjupyter notebook
+A machine learning model built in Python to predict student academic marks based on study hours, attendance, and past performance.
+
+Project Overview
+This project uses Linear Regression to analyze key factors affecting student grades and predict final test scores. It follows a complete machine learning pipeline: data cleaning, feature analysis, model training, and performance evaluation.
+
+Tech Stack & Tools
+Language: Python
+
+Platform: Google Colab / Jupyter Notebook
+
+Libraries:
+
+pandas — Data loading and manipulation
+
+numpy — Numerical operations
+
+matplotlib & seaborn — Data visualization & correlation plots
+
+scikit-learn — Model building, splitting dataset, and evaluation metrics
+
+Project Workflow
+Data Preprocessing: Handled missing values, encoded non-numeric features, and structured the dataset.
+
+Exploratory Data Analysis (EDA): Plotted scatter plots and heatmaps to inspect relationships between study habits and marks.
+
+Model Training: Split the dataset into 80% training and 20% testing sets using train_test_split, then fitted LinearRegression().
+
+Evaluation: Measured prediction accuracy using standard metrics:
+
+Mean Absolute Error (MAE)
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+R² Score
